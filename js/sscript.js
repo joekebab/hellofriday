@@ -670,39 +670,7 @@ let tvshows = [
         category: "Comédie",
         thumbnail: "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg",
         source: "https://ia801409.us.archive.org/2/items/vdfmllf/vdfmllf.mp4",
-    },
-    {
-        num: 85,
-        name: "La Vie de Famille : S01E07",
-        type: "Série",
-        category: "Comédie",
-        thumbnail: "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg",
-        source: "",
-    },
-    {
-        num: 86,
-        name: "La Vie de Famille : S01E08",
-        type: "Série",
-        category: "Comédie",
-        thumbnail: "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg",
-        source: "",
-    },
-    {
-        num: 87,
-        name: "La Vie de Famille : S01E09",
-        type: "Série",
-        category: "Comédie",
-        thumbnail: "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg",
-        source: "",
-    },
-    {
-        num: 88,
-        name: "La Vie de Famille : S01E10",
-        type: "Série",
-        category: "Comédie",
-        thumbnail: "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg",
-        source: "",
-    },
+    }
 ];
 
 let ordered_tvshows = tvshows.sort(function(a,b){

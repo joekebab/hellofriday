@@ -9,51 +9,51 @@ let i = 50;
 // LPV'S VARIABLES
 let lpv1 = new Object();
 lpv1.num = 1;
-lpv1.name = "Doctor Strange in The Multiverse of Madness";
-lpv1.type = "Film";
-lpv1.category = "Aventure";
-lpv1.source = "https://ia801401.us.archive.org/25/items/doctor-strange-in-the-multiverse-of-madness-french/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20%28FRENCH%29.mp4";
-lpv1.thumbnail = "https://ia902509.us.archive.org/13/items/1013563.ch-fr/__ia_thumb.jpg";
+lpv1.name = "Super Flics : Episode 05";
+lpv1.type = "Série";
+lpv1.category = "Comédie";
+lpv1.source = "https://ia601508.us.archive.org/28/items/super-flics-saison-1-episode-5-maman-timy/Super%20flics%20-%20saison%201%20-%20Episode%205%20-%20Maman%20Timy.mp4";
+lpv1.thumbnail = "https://ia601505.us.archive.org/19/items/47514-vignette-superflics-affiche/__ia_thumb.jpg";
 
 let lpv2 = new Object();
 lpv2.num = 2;
-lpv2.name = "Bob's Burgers";
+lpv2.name = "Friday";
 lpv2.type = "Film";
-lpv2.category = "Animation";
-lpv2.source = "https://ia601401.us.archive.org/28/items/regarder-gratuitement-le-film-bobs-burgers-le-film-en-streaming-vf-ou-vostfr/Regarder%20gratuitement%20le%20film%20Bob%27s%20Burgers%20-%20Le%20Film%20en%20streaming%20VF%20ou%20VOSTFR.mp4";
-lpv2.thumbnail = "https://ia802505.us.archive.org/20/items/9v-mg-oo-f/__ia_thumb.jpg";
+lpv2.category = "Comédie";
+lpv2.source = "https://ia902509.us.archive.org/11/items/regarder-gratuitement-le-film-friday-en-streaming-vf-ou-vostfr/Regarder%20gratuitement%20le%20film%20Friday%20en%20streaming%20VF%20ou%20VOSTFR.mp4";
+lpv2.thumbnail = "https://ia601403.us.archive.org/11/items/4366-aa/__ia_thumb.jpg";
 
 let lpv3 = new Object();
 lpv3.num = 3;
-lpv3.name = "The Eternals";
+lpv3.name = "Arrête-moi Si Tu Peux";
 lpv3.type = "Film";
-lpv3.category = "Aventure";
-lpv3.source = "https://ia601505.us.archive.org/7/items/les-eternels/Les%20Eternels.mp4";
-lpv3.thumbnail = "https://ia902508.us.archive.org/8/items/mv-5-byz-vj-ythm-ndat-ote-1-nc-00-yj-q-2-ltk-4-nwyt-ntc-4-yzc-4-otrh-yjll-xk-ey-/__ia_thumb.jpg";
+lpv3.category = "Biopic";
+lpv3.source = "https://ia802503.us.archive.org/22/items/arretes-moi-si-tu-peux/Arr%C3%AAtes-moi%20si%20tu%20peux.mp4";
+lpv3.thumbnail = "https://ia902502.us.archive.org/17/items/b-3-b-13-e-6-a-b-311-4264-8353-76-f-72-e-4-e-5-d-20/__ia_thumb.jpg";
 
 let lpv4 = new Object();
 lpv4.num = 4;
-lpv4.name = "Shang-Chi et La légende des Dix Anneaux";
-lpv4.type = "Film";
-lpv4.category = "Aventure";
-lpv4.source = "https://ia902509.us.archive.org/31/items/film-shang-chi-et-la-legende-des-dix-anneaux-streaming-vf-complet/Film%20Shang-Chi%20et%20la%20L%C3%A9gende%20des%20Dix%20Anneaux%20streaming%20vf%20complet.mp4";
-lpv4.thumbnail = "https://ia601400.us.archive.org/13/items/3128925/__ia_thumb.jpg";
+lpv4.name = "Marina : Episode 05";
+lpv4.type = "Feuilleton";
+lpv4.category = "Drame";
+lpv4.source = "https://ia801407.us.archive.org/26/items/marina-5/marina%205.mp4";
+lpv4.thumbnail = "https://ia601400.us.archive.org/33/items/5l-794-n-6hm-2-1692898614/__ia_thumb.jpg";
 
 let lpv5 = new Object();
 lpv5.num = 5;
-lpv5.name = "Get On Up";
+lpv5.name = "La Femme du Pasteur";
 lpv5.type = "Film";
-lpv5.category = "Biopic";
-lpv5.source = "";
-lpv5.thumbnail = "../../assets/images/get-on-up.jpg";
+lpv5.category = "Comédie";
+lpv5.source = "https://ia601406.us.archive.org/24/items/f-d-p/f-d-p.mp4";
+lpv5.thumbnail = "https://ia601504.us.archive.org/21/items/lafemmedupaw-0096060-cov-4-2424-newtv/__ia_thumb.jpg";
 
 let lpv6 = new Object();
 lpv6.num = 6;
-lpv6.name = "Le Blues de Ma Rainey";
+lpv6.name = "Great Teacher Onizuka : Episode 43";
 lpv6.type = "Film";
-lpv6.category = "Biopic";
-lpv6.source = "https://ia801500.us.archive.org/23/items/film-le-blues-de-ma-rainey-streaming-vf-complet/Film%20Le%20Blues%20de%20Ma%20Rainey%20streaming%20vf%20complet.mp4";
-lpv6.thumbnail = "../../assets/images/le-blues-de-ma-rainey.jpg";
+lpv6.category = "Anime";
+lpv6.source = "https://ia902507.us.archive.org/18/items/great-teacher-onizuka-vf-great-teacher-onizuka-gto-43-vf-43-voiranime/Great%20Teacher%20Onizuka%20%28VF%29%20-%20Great%20Teacher%20Onizuka%20%28GTO%29%20-%2043%20VF%20-%2043%20-%20Voiranime.mp4";
+lpv6.thumbnail = "https://ia801509.us.archive.org/0/items/great_teacher_onizuka_80/__ia_thumb.jpg";
 
 let lpv7 = new Object();
 lpv7.num = 7;
@@ -65,45 +65,45 @@ lpv7.thumbnail = "https://ia802503.us.archive.org/14/items/diallo-boubakar-2013-
 
 let lpv8 = new Object();
 lpv8.num = 8;
-lpv8.name = "La Nuit des Rois";
-lpv8.type = "Film";
-lpv8.category = "Drame";
-lpv8.source = "";
-lpv8.thumbnail = "../../assets/images/la-nuit-des-rois.jpg";
+lpv8.name = "Yalta, le crépusculte des géants";
+lpv8.type = "Documentaire";
+lpv8.category = "Histoire";
+lpv8.source = "https://ia801402.us.archive.org/19/items/yalta-le-crepuscule-des-geants-le-documentaire-2/Yalta%2C%20le%20cr%C3%A9puscule%20des%20g%C3%A9ants%20%40LE_DOCUMENTAIRE~2.mp4";
+lpv8.thumbnail = "https://ia601509.us.archive.org/32/items/photo_2022-07-18_12-14-30/__ia_thumb.jpg";
 
 // PO'S VARIABLES
 let po1 = new Object();
 po1.num = 9;
-po1.name = "Jumanji : Next Level";
-po1.type = "Film";
-po1.category = "Aventure";
-po1.source = "";
-po1.thumbnail = "https://ia802505.us.archive.org/25/items/2054035/__ia_thumb.jpg";
+po1.name = "Elizabeth II : un jour, une histoire";
+po1.type = "Documentaire";
+po1.category = "Histoire";
+po1.source = "https://ia801500.us.archive.org/16/items/1926-2022-elizabeth-ii-un-jour-une-histoire-documentaire/1926_2022_Elizabeth_II_Un_jour%2C_une_histoire_Documentaire.mp4";
+po1.thumbnail = "https://ia601408.us.archive.org/16/items/photo_2022-09-09_14-17-33/__ia_thumb.jpg";
 
 let po2 = new Object();
 po2.num = 10;
-po2.name = "Miss Bala";
-po2.type = "Film";
-po2.category = "Action";
-po2.source = "https://ia601409.us.archive.org/13/items/miss-bala-voir-films-streaming-voir-films-streaming/Miss%20Bala%20-%20Voir%20Films%20Streaming%20-%20Voir%20Films%20Streaming.mp4";
-po2.thumbnail = "https://ia601406.us.archive.org/28/items/mv-5-bnm-ri-ywfk-y-2-yt-ym-mz-oc-00-mta-5-ltk-5-ndgt-nz-bl-ndbj-otq-1-ogq-1-xk-e/__ia_thumb.jpg";
+po2.name = "Shaka Zulu : Episode 10";
+po2.type = "Série";
+po2.category = "Biopic";
+po2.source = "https://ia601402.us.archive.org/24/items/se-rie-shaka-zulu-e-pisode-10-fin-version-francaise/S%C3%89RIE%20SHAKA%20ZULU%20-%20%C3%89PISODE%2010%20%28FIN%29%20-%20%20Version%20Fran%C3%A7aise.mp4";
+po2.thumbnail = "https://ia801406.us.archive.org/12/items/shaka-zulu-heros-d-afrique-irawo/__ia_thumb.jpg";
 
 let po3 = new Object();
 po3.num = 11;
-po3.name = "Mad Max - Fury Road";
+po3.name = "La Cité de Dieu";
 po3.type = "Film";
-po3.category = "Action";
-po3.source = "";
-po3.thumbnail = "https://ia601504.us.archive.org/23/items/215297.jpg-c-310-420-x-f-jpg-q-x-xxyxx/__ia_thumb.jpg";
+po3.category = "Biopic";
+po3.source = "https://ia601503.us.archive.org/2/items/la-cite-de-dieu-french/La%20Cit%C3%A9%20de%20Dieu%20%28FRENCH%29.mp4";
+po3.thumbnail = "https://ia902507.us.archive.org/20/items/la-cite-de-dieu/__ia_thumb.jpg";
 
 
 let po4 = new Object();
 po4.num = 12;
-po4.name = "Unfriended Dark Web";
-po4.type = "Film";
-po4.category = "Horreur";
-po4.source = "https://ia802506.us.archive.org/18/items/film-unfriended-dark-web-streaming-vf-filmstoon/Film%20Unfriended-%20Dark%20Web%20Streaming%20VF%20-%20Filmstoon.mp4";
-po4.thumbnail = "https://ia801405.us.archive.org/15/items/unfriended-dark-web/__ia_thumb.jpg";
+po4.name = "El Diablo : Episode 10";
+po4.type = "Feuilleton";
+po4.category = "Action";
+po4.source = "https://ia801402.us.archive.org/10/items/el-diablo-010/El%20Diablo%20-%20010.mp4";
+po4.thumbnail = "https://ia601409.us.archive.org/24/items/filters_quality70/__ia_thumb.jpg";
 
 let po5 = new Object();
 po5.num = 13;
@@ -115,19 +115,19 @@ po5.thumbnail = "https://ia601401.us.archive.org/22/items/2182211/__ia_thumb.jpg
 
 let po6 = new Object();
 po6.num = 14;
-po6.name = "Uncharted";
-po6.type = "Film";
+po6.name = "City Hunter, Nicky Larson : Episode 05";
+po6.type = "Anime";
 po6.category = "Action";
-po6.source = "https://ia801505.us.archive.org/29/items/uncharted-french/Uncharted%20%28FRENCH%29.mp4";
-po6.thumbnail = "https://ia801502.us.archive.org/26/items/5983633/__ia_thumb.jpg";
+po6.source = "https://ia601402.us.archive.org/13/items/city-hunter-vf-city-hunter-nicky-larson-005-vf-005-voiranime/City%20Hunter%20%28VF%29%20-%20City%20Hunter%20%28Nicky%20Larson%29%20-%20005%20VF%20-%20005%20-%20Voiranime.mp4";
+po6.thumbnail = "https://ia601508.us.archive.org/8/items/w9M8n5DKacvX7kxufZDvSbQ5IXg/__ia_thumb.jpg";
 
 let po7 = new Object();
 po7.num = 15;
-po7.name = "The Book Of Eli";
-po7.type = "Film";
-po7.category = "Action";
-po7.source = "";
-po7.thumbnail = "https://ia801404.us.archive.org/33/items/mv-5-bnte-1-owi-1-yzgt-zj-ey-my-00-mj-q-4-lwe-0-nwmt-ytnh-yjc-0-zdq-3-zgrk-xk-ey/__ia_thumb.jpg";
+po7.name = "Les derniers secrets d'Hitler";
+po7.type = "Documentaire";
+po7.category = "Histoire";
+po7.source = "https://ia601500.us.archive.org/12/items/les-derniers-secrets-d-hitler-le-documentaire/Les%20derniers%20secrets%20d%27Hitler%20%40LE_DOCUMENTAIRE.mp4";
+po7.thumbnail = "https://ia902502.us.archive.org/0/items/photo_2022-07-18_12-15-37/__ia_thumb.jpg";
 
 let po8 = new Object();
 po8.num = 16;
@@ -140,11 +140,11 @@ po8.thumbnail = "https://ia801402.us.archive.org/23/items/silk-road_202207/__ia_
 // PA'S VARIABLES
 let pa1 = new Object();
 pa1.num = 17;
-pa1.name = "Les Guignols d'Abidjan : Gnafou Gnafou";
-pa1.type = "Film";
+pa1.name = "La Vie de Famille : S01E06";
+pa1.type = "Série";
 pa1.category = "Comédie";
-pa1.source = "https://ia601508.us.archive.org/7/items/les-guignols-d-abidjan-gnafou-gnafou/Les%20Guignols%20d%27Abidjan%20Gnafou%20Gnafou.mp4";
-pa1.thumbnail = "https://ia802504.us.archive.org/6/items/r-16031325-1602198577-8438/__ia_thumb.jpg";
+pa1.source = "https://ia801409.us.archive.org/2/items/vdfmllf/vdfmllf.mp4";
+pa1.thumbnail = "https://ia801506.us.archive.org/9/items/m-0_20221012/__ia_thumb.jpg";
 
 let pa2 = new Object();
 pa2.num = 18;
@@ -152,15 +152,15 @@ pa2.name = "Les Guignols d'Abidjan : La Vengeance A Deux Visages";
 pa2.type = "Film";
 pa2.category = "Comédie";
 pa2.source = "https://ia802501.us.archive.org/11/items/les-guignols-d-abidjan-la-vengeance-a-deux-visages/Les%20Guignols%20d%27Abidjan%20-%20La%20Vengeance%20a%20deux%20visages.mp4";
-pa2.thumbnail = "https://ia802504.us.archive.org/6/items/r-16031325-1602198577-8438/__ia_thumb.jpg";
+pa2.thumbnail = "https://ia801401.us.archive.org/7/items/images_20221009/__ia_thumb.jpg";
 
 let pa3 = new Object();
 pa3.num = 19;
-pa3.name = "Congé de Mariage";
+pa3.name = "The Social Network";
 pa3.type = "Film";
-pa3.category = "Comédie";
-pa3.source = "https://archive.org/download/conge-de-mariage-integral-official/Cong%C3%A9%20de%20mariage%20%28Integral%20-%20Official%29.mp4";
-pa3.thumbnail = "https://ia802503.us.archive.org/14/items/diallo-boubakar-2013-conge-de-mariage-00/__ia_thumb.jpg";
+pa3.category = "Biopic";
+pa3.source = "https://ia802501.us.archive.org/27/items/film-the-social-network-streaming-vf-complet/Film%20The%20Social%20Network%20streaming%20vf%20complet.mp4";
+pa3.thumbnail = "https://ia801502.us.archive.org/18/items/mv-5-boguy-zdux-zj-et-mm-iz-mc-00-mzlm-ltg-4-mgit-zwjm-mz-bh-zj-e-0-mjc-1-xk-ey-/__ia_thumb.jpg";
 
 let pa4 = new Object();
 pa4.num = 20;
@@ -188,19 +188,19 @@ pa6.thumbnail = "https://ia601508.us.archive.org/0/items/21006442-20130516121958
 
 let pa7 = new Object();
 pa7.num = 23;
-pa7.name = "La Nuit des Rois";
+pa7.name = "Menace II Society";
 pa7.type = "Film";
 pa7.category = "Drame";
-pa7.source = "https://ia902506.us.archive.org/17/items/regarder-gratuitement-le-film-la-nuit-des-rois-en-streaming-vf-ou-vostfr/Regarder%20gratuitement%20le%20film%20La%20Nuit%20des%20rois%20en%20streaming%20VF%20ou%20VOSTFR.mp4";
-pa7.thumbnail = "https://ia802501.us.archive.org/30/items/la-nuit-des-rois/__ia_thumb.jpg";
+pa7.source = "https://ia902506.us.archive.org/13/items/regarder-gratuitement-le-film-menace-ii-society-en-streaming-vf-ou-vostfr/Regarder%20gratuitement%20le%20film%20Menace%20II%20Society%20en%20streaming%20VF%20ou%20VOSTFR.mp4";
+pa7.thumbnail = "https://ia802509.us.archive.org/14/items/mv-5-bnge-3-mgi-0-mz-it-nj-jj-nc-00-ztuz-ltlm-ztct-oguy-mdll-mwm-2-otcx-xk-ey-xk/__ia_thumb.jpg";
 
 let pa8 = new Object();
 pa8.num = 24;
-pa8.name = "Sofia";
-pa8.type = "Film";
-pa8.category = "Romance";
-pa8.source = "https://ia801505.us.archive.org/7/items/sofia-integral-official/Sofia%20%28Integral%20-%20Official%29.mp4";
-pa8.thumbnail = "https://ia902504.us.archive.org/12/items/photo-16/__ia_thumb.jpg";
+pa8.name = "Kadi Jolie : Episode 10";
+pa8.type = "Série";
+pa8.category = "Comédie";
+pa8.source = "https://ia801408.us.archive.org/1/items/kadi-jolie-ep-10-le-parfum_202209/KADI%20JOLIE%20-%20EP%2010%20-%20LE%20PARFUM.mp4";
+pa8.thumbnail = "https://ia802503.us.archive.org/33/items/eno-fb-35-w-4-aaro-me/__ia_thumb.jpg";
 
       //NAVBAR
 document.querySelector('#nav').innerHTML += `

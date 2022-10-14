@@ -169,11 +169,11 @@ let movies = [
     },
     {
         num: 37,
-        name: "Le Blues de Ma Rainey",
+        name: "La Femme du Pasteur",
         type: "Film",
-        category: "Biopic",
-        thumbnail: "https://ia802506.us.archive.org/1/items/le-blues-de-ma-rainey/__ia_thumb.jpg",
-        source: "https://ia801500.us.archive.org/23/items/film-le-blues-de-ma-rainey-streaming-vf-complet/Film%20Le%20Blues%20de%20Ma%20Rainey%20streaming%20vf%20complet.mp4",
+        category: "Comédie",
+        thumbnail: "https://ia601504.us.archive.org/21/items/lafemmedupaw-0096060-cov-4-2424-newtv/__ia_thumb.jpg",
+        source: "https://ia601406.us.archive.org/24/items/f-d-p/f-d-p.mp4",
     },
     {
         num: 39,
