@@ -1,0 +1,32 @@
+{
+  "name": "helloFriday",
+  "version": "0.0.1",
+  "description": "streaming software by kebab joe",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "helloFriday",
+    "streaming",
+    "cinema"
+  ],
+  "author": "JoeKebab",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.2.0",
+    "electron-builder": "^23.3.3",
+    "webpack": "^5.74.0"
+  },
+  "build": {
+    "appId": "com.hellofriday.app",
+    "productName": "helloFriday",
+    "icon": "hellofriday-icon.png"
+  },
+  "dependencies": {
+    "update-electron-app": "^2.0.1",
+    "yarn": "^1.22.19"
+  }
+}
