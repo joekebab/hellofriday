@@ -432,6 +432,14 @@ let animes = [
         source: "https://ia601506.us.archive.org/6/items/drgbc/drgbc.mp4",
     },
     {
+        num: 61,
+        name: "Dragon Ball : Episode 04",
+        type: "Anime",
+        category: "Aventure",
+        thumbnail: "https://ia601501.us.archive.org/10/items/tZ0jXOeYBWPZ0OWzUhTlYvMF7YR/__ia_thumb.jpg",
+        source: "https://ia601502.us.archive.org/27/items/drgbd/drgbd.mp4",
+    },
+    {
         num: 64,
         name: "Yuu Yuu Hakusho : Episode 04",
         type: "Anime",

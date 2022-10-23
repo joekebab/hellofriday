@@ -11,7 +11,7 @@ function createWindow () {
     minWidth: 970,
     minHeight: 670,
     autoHideMenuBar: true,
-    icon: 'hellofriday-icon.png',
+    icon: 'hellofriday-icon.ico',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }

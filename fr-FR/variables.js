@@ -9,19 +9,19 @@ let i = 50;
 // LPV'S VARIABLES
 let lpv1 = new Object();
 lpv1.num = 1;
-lpv1.name = "Super Flics : Episode 05";
+lpv1.name = "Les Guignols d'Abidjan : Affaire sur Batterie";
 lpv1.type = "Série";
 lpv1.category = "Comédie";
-lpv1.source = "https://ia601508.us.archive.org/28/items/super-flics-saison-1-episode-5-maman-timy/Super%20flics%20-%20saison%201%20-%20Episode%205%20-%20Maman%20Timy.mp4";
-lpv1.thumbnail = "https://ia601505.us.archive.org/19/items/47514-vignette-superflics-affiche/__ia_thumb.jpg";
+lpv1.source = "https://ia601404.us.archive.org/21/items/les-guignols-d-abidjan-affaire-sur-batterie/Les%20Guignols%20d%27Abidjan%20Affaire%20Sur%20Batterie.mp4";
+lpv1.thumbnail = "https://ia801401.us.archive.org/7/items/images_20221009/__ia_thumb.jpg";
 
 let lpv2 = new Object();
 lpv2.num = 2;
-lpv2.name = "Friday";
-lpv2.type = "Film";
+lpv2.name = "Au Coeur du Péché : Episode 010";
+lpv2.type = "Feuilleton";
 lpv2.category = "Comédie";
-lpv2.source = "https://ia902509.us.archive.org/11/items/regarder-gratuitement-le-film-friday-en-streaming-vf-ou-vostfr/Regarder%20gratuitement%20le%20film%20Friday%20en%20streaming%20VF%20ou%20VOSTFR.mp4";
-lpv2.thumbnail = "https://ia601403.us.archive.org/11/items/4366-aa/__ia_thumb.jpg";
+lpv2.source = "https://ia601500.us.archive.org/18/items/au-coeur-du-peche-saison-1-episode-10/Au%20c%C5%93ur%20du%20p%C3%A9ch%C3%A9%20Saison%201%20Episode%2010%20en%20streaming%20-%20streamdeouf.mp4";
+lpv2.thumbnail = "https://ia802500.us.archive.org/5/items/au-coeur-du-peche/__ia_thumb.jpg";
 
 let lpv3 = new Object();
 lpv3.num = 3;
@@ -33,11 +33,11 @@ lpv3.thumbnail = "https://ia902502.us.archive.org/17/items/b-3-b-13-e-6-a-b-311-
 
 let lpv4 = new Object();
 lpv4.num = 4;
-lpv4.name = "Marina : Episode 05";
+lpv4.name = "Ma Famille : Episode 01";
 lpv4.type = "Feuilleton";
-lpv4.category = "Drame";
-lpv4.source = "https://ia801407.us.archive.org/26/items/marina-5/marina%205.mp4";
-lpv4.thumbnail = "https://ia601400.us.archive.org/33/items/5l-794-n-6hm-2-1692898614/__ia_thumb.jpg";
+lpv4.category = "Comédie";
+lpv4.source = "https://ia904702.us.archive.org/17/items/001-ma-famille-couvre-feu-concubins/001%20Ma%20Famille%20Couvre%20Feu%20%26%20Concubins.mp4";
+lpv4.thumbnail = "https://ia601402.us.archive.org/35/items/902-vignette-affiche-290/__ia_thumb.jpg";
 
 let lpv5 = new Object();
 lpv5.num = 5;
@@ -164,19 +164,19 @@ pa3.thumbnail = "https://ia801502.us.archive.org/18/items/mv-5-boguy-zdux-zj-et-
 
 let pa4 = new Object();
 pa4.num = 20;
-pa4.name = "Une Femme Pas Comme Les Autres";
+pa4.name = "La Cité de Dieu";
 pa4.type = "Film";
-pa4.category = "Comédie";
-pa4.source = "https://ia601405.us.archive.org/6/items/femme-pas-comme-les-autres-burkina-faso-fr-sous-titre-anglais/FEMME%20PAS%20COMME%20LES%20AUTRES%20-%20BURKINA%20FASO%20-%20Fr%20sous%20titre%CC%81%20anglais.mp4";
-pa4.thumbnail = "https://ia801509.us.archive.org/18/items/une-femme-pas-comme-les-autres/__ia_thumb.jpg";
+pa4.category = "Biopic";
+pa4.source = "https://ia601503.us.archive.org/2/items/la-cite-de-dieu-french/La%20Cit%C3%A9%20de%20Dieu%20%28FRENCH%29.mp4";
+pa4.thumbnail = "https://ia902507.us.archive.org/20/items/la-cite-de-dieu/__ia_thumb.jpg";
 
 let pa5 = new Object();
 pa5.num = 21;
-pa5.name = "Sam le Caïd";
-pa5.type = "Film";
-pa5.category = "Comédie";
-pa5.source = "https://ia801406.us.archive.org/21/items/sam-le-caid-integral-official/Sam%20Le%20Ca%C3%AFd%20%28Integral%20-%20Official%29.mp4";
-pa5.thumbnail = "https://ia802505.us.archive.org/13/items/sam-le-caid/__ia_thumb.jpg";
+pa5.name = "Mobutu, Roi du Zaïre";
+pa5.type = "Documentaire";
+pa5.category = "Histoire";
+pa5.source = "https://ia601500.us.archive.org/19/items/mobutu-roi-du-zai-re-congo-vost-fr-belgique/MOBUTU%20ROI%20DU%20ZAI%CC%88RE%20%20%20CONGO%20%20%20VOST%20FR%20%20%20Belgique.mp4";
+pa5.thumbnail = "https://ia601501.us.archive.org/19/items/muu_20221001/__ia_thumb.jpg";
 
 let pa6 = new Object();
 pa6.num = 22;

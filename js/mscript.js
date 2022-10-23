@@ -335,6 +335,30 @@ let movies = [
         thumbnail: "https://ia601502.us.archive.org/34/items/l_bal-poussiere/__ia_thumb.jpg",
         source: "https://ia801501.us.archive.org/30/items/blpssr_dmd/blpssr_dmd.mp4",
     },
+    {
+        num: 65,
+        name: "Les Guignols d'Abidjan : Affaire sur Batterie",
+        type: "Film",
+        category: "Comédie",
+        thumbnail: "https://ia801401.us.archive.org/7/items/images_20221009/__ia_thumb.jpg",
+        source: "https://ia601404.us.archive.org/21/items/les-guignols-d-abidjan-affaire-sur-batterie/Les%20Guignols%20d%27Abidjan%20Affaire%20Sur%20Batterie.mp4",
+    },
+    {
+        num: 66,
+        name: "Ma Famille : Episode 01",
+        type: "Film",
+        category: "Comédie",
+        thumbnail: "https://ia601402.us.archive.org/35/items/902-vignette-affiche-290/__ia_thumb.jpg",
+        source: "https://ia904702.us.archive.org/17/items/001-ma-famille-couvre-feu-concubins/001%20Ma%20Famille%20Couvre%20Feu%20%26%20Concubins.mp4",
+    },
+    {
+        num: 67,
+        name: "Ma Famille : Episode 02",
+        type: "Film",
+        category: "Comédie",
+        thumbnail: "https://ia601402.us.archive.org/35/items/902-vignette-affiche-290/__ia_thumb.jpg",
+        source: "https://ia601502.us.archive.org/13/items/002-ma-famille-la-femme-de-mon-epoux/002%20Ma%20Famille%20La%20Femme%20de%20Mon%20Epoux.mp4",
+    },
 ];
 
 let ordered_movies = movies.sort(function(a,b){
