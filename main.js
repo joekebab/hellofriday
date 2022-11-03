@@ -1,6 +1,8 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
+const { autoUpdater } = require("electron-updater")
+const isDev = require("electron-is-dev")
 
 app.setAppUserModelId("🍿 helloFriday")
 function createWindow () {
@@ -20,6 +22,9 @@ function createWindow () {
   mainWindow.loadFile('fr-FR/html/home-page.html')
 
   // Open the DevTools.
+  if(!isDev) {
+    autoUpdater.checkForUpdates();
+  }
   // mainWindow.webContents.openDevTools()
 }
 
@@ -43,9 +48,30 @@ app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
 
+autoUpdater.on("update-available", (_event, releaseNotes, releaseName) => {
+	const dialogOpts = {
+		type: 'info',
+		buttons: ['D\'accord'],
+		title: 'Mise à jour de helloFriday',
+		message: process.platform === 'win32' ? releaseNotes : releaseName,
+		detail: 'Une nouvelle version a été téléchargée.'
+	}
+	dialog.showMessageBox(dialogOpts, (response) => {
+
+	});
+})
+
+autoUpdater.on("update-downloaded", (_event, releaseNotes, releaseName) => {
+	const dialogOpts = {
+		type: 'info',
+		buttons: ['Relancer', 'Plus Tard'],
+		title: 'Mise à jour de helloFriday',
+		message: process.platform === 'win32' ? releaseNotes : releaseName,
+		detail: 'Une nouvelle version a été téléchargée. Redémarrez l\'application pour appliquer les mises à jour.'
+	};
+	dialog.showMessageBox(dialogOpts).then((returnValue) => {
+		if (returnValue.response === 0) autoUpdater.quitAndInstall()
+	})
+});
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
-require('update-electron-app')({
-  repo: 'joekebab/hellofriday',
-  updateInterval: '1 hour',
-})

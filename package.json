@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "build:publish": "set GH_TOKEN=<personal_access_token>"
   },
   "keywords": [
     "helloFriday",
@@ -26,6 +27,8 @@
     "icon": "hellofriday-icon.png"
   },
   "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "electron-updater": "^5.3.0",
     "update-electron-app": "^2.0.1",
     "yarn": "^1.22.19"
   }
