@@ -1,13 +1,13 @@
 {
   "name": "helloFriday",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "streaming software by kebab joe",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "build:publish": "set GH_TOKEN=<personal_access_token>"
+    "build:publish": "set GH_TOKEN=<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>"
   },
   "keywords": [
     "helloFriday",
