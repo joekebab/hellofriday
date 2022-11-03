@@ -22,9 +22,7 @@ function createWindow () {
   mainWindow.loadFile('fr-FR/html/home-page.html')
 
   // Open the DevTools.
-  if(!isDev) {
     autoUpdater.checkForUpdates();
-  }
   // mainWindow.webContents.openDevTools()
 }
 
@@ -33,6 +31,7 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
   createWindow()
+  autoUpdater.checkForUpdatesAndNotify()
 
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
@@ -54,7 +53,7 @@ autoUpdater.on("update-available", (_event, releaseNotes, releaseName) => {
 		buttons: ['D\'accord'],
 		title: 'Mise à jour de helloFriday',
 		message: process.platform === 'win32' ? releaseNotes : releaseName,
-		detail: 'Une nouvelle version a été téléchargée.'
+		detail: 'Une nouvelle version est disponible.'
 	}
 	dialog.showMessageBox(dialogOpts, (response) => {
 
